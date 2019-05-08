@@ -14,4 +14,27 @@
   background: #ccc;
   height: 300px;
   width: 600px;
+    
+    /* Overflow */
+    overflow: hidden;
+  }
+  
+  /* https://css-tricks.com/css3-gradients/ */
+
+  .morning-gradient {
+  background-image:
+    linear-gradient(
+       #e9f5f8, #fff
+    );
+  }
+  
+.evening-gradient {
+  background-image:
+    linear-gradient(
+      red, #f06d06
+    );
+  }
+  
+#svg-container {
+  transform: scale(1.25) translate(12px, -120px);
 }
